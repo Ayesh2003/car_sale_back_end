@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 public class CarEntity {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
-    private int carId;
+    private Long carId;
     private String brand;
     private String carNumber;
     private int passengerCount;
